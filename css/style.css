@@ -2548,7 +2548,7 @@ form.label-outside .form-validation {
 }
 
 .section-30 {
-	padding-top: 30px;
+	padding-top: 60px;
 	padding-bottom: 30px;
 }
 
@@ -4713,7 +4713,7 @@ blockquote cite {
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
-	animation: cssload-spin .999s infinite linear;
+	animation: cssload-spin .80s infinite linear;
 }
 
 @-webkit-keyframes cssload-spin {
@@ -14057,4 +14057,21 @@ html.boxed .rd-navbar--is-clone {
     display: -webkit-box;
     -webkit-line-clamp: 4; /* Number of lines to show */
     -webkit-box-orient: vertical;
+  }
+
+  .brand-container {
+	display: flex;
+	align-items: center;
+  }
+
+  .brand-text {
+	margin-left: 10px;
+
+	/* Change this color to the desired blue shade */
+  }
+
+  .brand-title {
+	font-size: 14px;
+	line-height: 1.2;
+	margin: 0;
   }
