@@ -11309,7 +11309,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-fixed .rd-navbar-brand {
 	position: fixed;
-	top: 17px;
+	top: 10px;
 	left: 64px;
 	z-index: 17;
 	display: block;
@@ -14074,4 +14074,9 @@ html.boxed .rd-navbar--is-clone {
 	font-size: 14px;
 	line-height: 1.2;
 	margin: 0;
+  }
+  .hr-three {
+	height: 14px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px silver;
   }
