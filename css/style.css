@@ -1222,6 +1222,21 @@ html .button-silver-outline .badge {
 	height: 26px;
 	line-height: 26px;
 }
+.google-map {
+	position: relative;
+	padding-bottom: 25%;
+	height: 0;
+	overflow: hidden;
+	width:"500" ;
+	height:"200";
+  }
+  .google-map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+  }
 
 .fa-google-plus:before {
 	position: relative;
